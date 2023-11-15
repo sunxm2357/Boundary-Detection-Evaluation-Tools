@@ -19,7 +19,7 @@ if strcmp(database,'Pascal') || strcmp(database,'PASCALContext') || strcmp(datab
     db_root_dir = fullfile('/data/hyeae/project/mtl/dataset/atrc_data/PASCALContext/pascal-context');
 elseif strcmp(database, 'NYUD')
     % Change to your dataset path
-    db_root_dir = fullfile('/data/hyeae/project/mtl/dataset/atrc_data/NYUDv2');
+    db_root_dir = fullfile('/projectnb/ivc-ml/sunxm/datasets/NYUDv2');
 else
     error(['Unknown database: ' database]);
 end

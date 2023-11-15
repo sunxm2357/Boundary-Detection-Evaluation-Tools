@@ -115,7 +115,7 @@ def eval_edge_predictions_forward(save_dir, exp_name):
 if __name__ == '__main__':
     import time
     time0 = time.time()
-    prediction_path = 'somepath'
+    prediction_path = '/projectnb/ivc-ml/sunxm/code/Multi-Task-Transformer/TaskPrompter_nyud_vitLp16/results'
     exp_name = 'version_1'.replace('-', '') 
     exp_name = 'tmp_' + exp_name
     print('exp name: {}'.format(exp_name))
